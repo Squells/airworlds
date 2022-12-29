@@ -5,13 +5,10 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
-const title = 'My Page Title';
-
 const Home = () => {
 
   return (
     <>
-      <title>{title}</title>
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
